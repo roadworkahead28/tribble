@@ -1,0 +1,14 @@
+print("Siema")
+def potega(liczba, wykladnik):
+    if wykladnik == 0:
+        return 1
+    elif wykladnik == 1:
+        return liczba
+    else:
+        return liczba*potega(liczba, wykladnik)
+
+print("Podaj liczbę")
+liczbe = int(input())
+print("Podaj wykładnik")
+wykladnik = int(input()) 
+print(potega(liczbe, wykladnik))
