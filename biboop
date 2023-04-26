@@ -12,3 +12,4 @@ liczbe = int(input())
 print("Podaj wykładnik")
 wykladnik = int(input()) 
 print(potega(liczbe, wykladnik))
+#wszystko jest ok...
